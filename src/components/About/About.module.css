@@ -1,0 +1,25 @@
+.container {
+    padding: 0 5%;
+    
+}
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 50px 5px;
+    font-size: 1.5rem;
+}
+.title {
+    color: bisque;
+}
+.profileContent {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-size: 1.5rem;
+    text-align: left;
+}
+.redesList {
+    justify-content: end;
+    flex-direction: row;
+}

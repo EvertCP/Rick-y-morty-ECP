@@ -1,0 +1,35 @@
+.conteiner{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 90%;
+    height: auto;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+    justify-content: space-evenly;
+
+}
+.main{
+    display: flex;
+    height: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    text-align: start;
+    width: 100%;
+    justify-content: flex-start;
+    padding-bottom: 15px;
+    position: fixed;
+    z-index: 2;
+    top: 15%;
+}
+.selected{
+    background-color: rgba(21, 21, 21, 0.99);;
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
