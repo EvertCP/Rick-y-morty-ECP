@@ -1,4 +1,6 @@
 import styles from "./About.module.css";
+import React from 'react';
+import { FaLinkedinIn, FaInstagram, FaGithub} from 'react-icons/fa';
 
 export default function About(props) {
     return(
@@ -20,10 +22,10 @@ export default function About(props) {
                 </div>
                 <div className={styles.redes}>
                     <ul className={styles.redesList}>
-                        <li>instagram</li>
-                        <li>Linkedin</li>
-                        <li>GitHub</li>
-                    </ul>
+                        <li><a href="https://github.com/EvertCP/" target="blank"><FaGithub style={{fontSize: '40px', position: 'center', margin: '.5rem'}}/></a> </li>
+                        <li><a href="https://www.instagram.com/evertcp/" target="blank"><FaInstagram style={{fontSize: '40px', position: 'center', margin: '.5rem'}}/></a> </li>
+                        <li><a href="https://www.linkedin.com/in/evert-cardenas-polo-564907156/" target="blank"><FaLinkedinIn style={{fontSize: '40px', position: 'center', margin: '.5rem'}}/></a> </li>
+                    </ul>      
                 </div>
             </div>
         </div>
