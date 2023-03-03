@@ -8,16 +8,14 @@ export default function About(props) {
             <div className={styles.aboutContainer}>
                 <h1 className={styles.title}>About</h1>
                 <div className={styles.profile}>
-                    <div className={styles.prfileContent}>
+                    <div className={styles.profileContent}>
                         <p>Mi nombre es Evert Cardenas, soy desarrollador fullstack en proceso, tengo conocimientos solidos en HTML, CSS, JavaScript y React.</p>                       
                     </div>
-                    <div className={styles.profileImg}>
-
-                    </div>
+                   
                 </div>
 
                 <div className={styles.aboutApp}>
-                    <h2>Sobre la APP</h2>
+                    <h2 className={styles.title}>Sobre la APP</h2>
                     <p>Esta pagina fue hecha con React, HTML, CSS y JavaScript.</p>
                 </div>
                 <div className={styles.redes}>

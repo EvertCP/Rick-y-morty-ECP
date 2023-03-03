@@ -1,6 +1,9 @@
 .container {
     padding: 0 5%;
-    
+    background-color: rgba(248, 195, 245, 0.747);
+    margin-top: 2.5rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
 }
 .aboutContainer {
     display: flex;
@@ -8,9 +11,10 @@
     gap: 32px;
     padding: 50px 5px;
     font-size: 1.5rem;
+    
 }
 .title {
-    color: bisque;
+    color: rgb(57, 52, 22);
 }
 .profileContent {
     display: flex;
